@@ -1,0 +1,12 @@
+- project: kubeflow/katib
+  description: Kubernetes-based system for Hyperparameter Tuning and Neural Architecture Search
+  url: https://www.github.com/kubeflow/katib
+- project: dmlc/xgboost
+  description: scalable, portable and distributed Gradient Boosting (GBDT, GBRT or GBM) Library
+  url: https://www.github.com/dmlc/xgboost
+- project: intel-analytics/BigDL
+  description: Distributed Deep Learning Framework for Apache Spark
+  url: https://github.com/intel-analytics/BigDL
+- project: sql-machine-learning/sqlflow
+  description: a bridge that connects a SQL engine with machine learning toolkits
+  url: https://github.com/sql-machine-learning/sqlflow

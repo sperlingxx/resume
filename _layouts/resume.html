@@ -48,6 +48,24 @@
 
       </header>
 
+      {% if site.resume_section_contribution %}
+      <!-- begin Contribution -->
+      <section class="content-section">
+
+        <header class="section-header">
+          <h2>Contributions</h2>
+          <p>major open source contributions: >=10 commits each repository</p>
+        </header>
+
+        {% for c in site.data.contribution %}
+          <h4 class="resume-item-details" itemprop="description"> <link href="{{ c.url }}">{{ c.project }}</link> </h4>
+          <p class="resume-item-copy">{{ c.description }}</p>
+        {% endfor %}
+
+      </section>
+      <!-- end Contribution -->
+      {% endif %}
+
       {% if site.resume_section_experience %}
       <!-- begin Experience -->
       <section class="content-section">
@@ -230,11 +248,6 @@
       </section>
       <!-- end Print Social Links -->
       {% endif %}
-
-      <footer class="page-footer">
-        <p class="footer-line">Made by <a href="http://twitter.com/jglovier">@jglovier</a>. Fork me on <a href="https://github.com/jglovier/resume-template">GitHub</a>.</p>
-        <p class="footer-line">If this is your live resume, you can modify or remove this part. ;-)</p>
-      </footer>
 
     </div>
 
