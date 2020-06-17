@@ -1,19 +1,21 @@
-# Jobs
-# VP of Global Communications
-- company: Springfield International Human Rights Outreach
-  position: VP of Global Communications
-  duration: Oct, 2013 &mdash; Present
-  summary: Write about your core competencies in one or two sentences describing your position. If you held the position for a long time, it could be a longer section, including a couple bullet points	<ul class="resume-item-list"><li>A project you are proud of</li><li>Another awesome project</li><li>or a team or department you worked with</li></ul>
+- company: Ant Financial
+  position: Machine Learning Platform Engineer
+  duration: Feb, 2019 &mdash; Present
+  summary: |-
+    Building (auto) machine learning platform on kubernetes, my efforts can be summarized as below:  
+    <ul class="resume-item-list">
+      <li>k8s-native hyper-parameter tuning system based on kubeflow/katib</li>
+      <li>XGBoost on k8s, including improvements on XGBoost core and XGBoost spark runtime</li>
+      <li>internal cloud-native machine learning package, something like Azure-ML or SageMaker</li>
+    </ul>
 
-# Director of Digital Stratgy
-- company: United Nations Human Rights Council
-  position: Director of Digital Strategy
-  duration:  Jun, 2010 &mdash; Sept, 2013
-  summary: If your stint was shorter, feel free to be brief and just call out the most meaningful points of your role. Be concise, and be meaninful. The person reading just needs enough to want to talk to you more about your experience.
-
-
-# Communications Coordinator
-- company: Springfield Women & Children's Center
-  position: Communications Coordinator
-  duration:   Jun, 2008  &mdash; May, 2010
-  summary: Led communication efforts across digital and traditional media channels for marketing and public relations, internal communication strategies, and coordinated support programs for the recipients of the center's services.
+- company: Alibaba
+  position: Machine Learning Engineer
+  duration:  Jul, 2015 &mdash; Jan, 2019
+  summary: |-
+    Working for AliOS(formal YunOS) department, focus on machine learning solutions for mobile. Major work are listed below:
+    <ul class="resume-item-list">
+      <li>Develop and improve content recommend solutions for AliOS, a multi-terminal mobile operating system provided by Alibaba.</li>
+      <li>Improve(sometimes make some higher level wrapper) open source Machine(deep) Learning project such as BigDL, Tensorflow, to make them working better on inner projects.</li>
+      <li>Develop visual modules for AliOS via deep learning models, providing abilities like lane detection, object(auto-mobile, pedestrian, traffic lights ...) detection.</li>
+    </ul>
