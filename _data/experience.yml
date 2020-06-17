@@ -4,18 +4,35 @@
   summary: |-
     Building (auto) machine learning platform on kubernetes, my efforts can be summarized as below:  
     <ul class="resume-item-list">
-      <li>k8s-native hyper-parameter tuning system based on kubeflow/katib</li>
-      <li>XGBoost on k8s, including improvements on XGBoost core and XGBoost spark runtime</li>
-      <li>internal cloud-native machine learning package, something like Azure-ML or SageMaker</li>
+      <li>k8s-native hyper-parameter tuning system based on kubeflow/katib
+        <ul class="resume-item-list">
+          <li>Work as one of active contributors in katib community, raising PR/issues && conducting code reviews && joining discussions.</li>
+          <li>Develop internal addons for katib, and make it adapt internal kubernetes cluster.</li>
+          <li>Maintain internal katib.</li>
+          <li>Build internal HPO python SDK based on katib.</li>
+        </ul>
+      </li>
+      <li>xgboost related works
+        <ul class="resume-item-list"> 
+          <li>Build xgboost-launcher, another python wrapper of xgboost, which is extendable, adaptive and k8s-friendly.</li>
+          <li>Join the design and development of kubeflow/xgboost-operator.</li>
+          <li>Make contributions (bug fixes and improvements) on xgboost core and xgboost spark runtime.</li>
+          <li>Develop spark runtime for dmlc/treelite.</li>
+          <li>Integate xgboost into sql-machine-learning/sqlflow.</li>
+          <li>Make internal wrapper and adaption for xgboost./li>
+        </ul>
+      </li>
+      <li>internal cloud-native machine learning python SDK, something like SDK of Azure-ML or SageMaker</li>
     </ul>
 
 - company: Alibaba
   position: Machine Learning Engineer
   duration:  Jul, 2015 &mdash; Jan, 2019
   summary: |-
-    Working for AliOS(formal YunOS) department, focus on machine learning solutions for mobile. Major work are listed below:
+    Working for AliOS(formal YunOS) department, focus on machine learning solutions for mobile. Major works are listed below:
     <ul class="resume-item-list">
-      <li>Develop and improve content recommend solutions for AliOS, a multi-terminal mobile operating system provided by Alibaba.</li>
+      <li>Develop and improve content recommend pipelines (mainly via Apache Spark) for AliOS, a multi-terminal mobile operating system provided by Alibaba.</li>
+      <li>Build efficient vectorized recall system based on LSH algorithms, which can run on Apache Spark for batch computation and run as a standalone service.</li>
       <li>Improve(sometimes make some higher level wrapper) open source Machine(deep) Learning project such as BigDL, Tensorflow, to make them working better on inner projects.</li>
       <li>Develop visual modules for AliOS via deep learning models, providing abilities like lane detection, object(auto-mobile, pedestrian, traffic lights ...) detection.</li>
     </ul>
