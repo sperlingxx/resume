@@ -32,7 +32,7 @@
     Working for AliOS department, focus on machine learning solutions for mobile. Major works are listed below:
     <ul class="resume-item-list">
       <li>Develop and improve content recommend pipelines (mainly via Apache Spark) for AliOS, a multi-terminal mobile operating system provided by Alibaba.</li>
-      <li>Build efficient vectorized recall system based on LSH algorithms, which can run on Apache Spark for batch computation and run as a standalone service.</li>
+      <li>Build efficient vector recall system based on LSH algorithms, which can run on Apache Spark for batch computation and run as a standalone service.</li>
       <li>Improve(sometimes make some higher level wrapper) open source Machine(deep) Learning project such as BigDL, Tensorflow, to make them working better on inner projects.</li>
       <li>Develop visual modules for AliOS via deep learning models, providing abilities like lane detection, object(auto-mobile, pedestrian, traffic lights ...) detection.</li>
     </ul>
