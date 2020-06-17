@@ -1,12 +1,8 @@
-# Skills
-# Organizational leadership
-- skill: Organizational leadership
-  description: I have several years of experience leading organziations from community groups to business departments. From public speaking, to mentoring, to coordination of people and events, I can lead in any context.
+- skill: Apache Spark
+  description: I have worked with spark for several years. And, I am quite interested in spark, which makes me digging deep on spark internal.
 
-# Communications strategy
-- skill: Communications strategy
-  description: Content and marketing strategy,
+- skill: Machine Learning on Kubernetes
+  description: I am familiar with machine learning related kubernetes operators in kubeflow community. And I also have hands-on experience on building kubernetes operators via kube-builder or client-go.
 
-# Digital content development and creation
-- skill: Digital content development and creation
-  description: Copy writing, graphic design, web design, front-end web development, print design
+- skill: Programming Languages
+  description: I am good at scala and python. And I also have experience on c++ and go.
